@@ -6,9 +6,22 @@ A work-in-progress visual replacement that brings the bearded **God of War (2018
 
 **[Download the mod](https://github.com/ErdemYaziciOfficial/gow3-kratos-2018/releases)** · [Türkçe kurulum](#türkçe) · [Port project](https://github.com/FelipePrado0/gow3_pc)
 
-![Earlier V28 gameplay preview](gameplay-v28.png)
+## V40 video showcase
 
-*Image above is the earlier V28 preview; V40 changes focus on facial animation and fitting.*
+[![V40 showcase: menu transition, Athena dialogue and combat](v40-showcase.jpg)](https://github.com/ErdemYaziciOfficial/gow3-kratos-2018/releases/download/v40-preview/Kratos-2018-V40-Twitter.mp4)
+
+**[Watch / download the 65-second showcase (MP4, 1080p60)](https://github.com/ErdemYaziciOfficial/gow3-kratos-2018/releases/download/v40-preview/Kratos-2018-V40-Twitter.mp4)** — menu transition, Athena dialogue close-ups and combat. Depending on your browser, the link may download the video. The MP4 is also attached to the [V40 release](https://github.com/ErdemYaziciOfficial/gow3-kratos-2018/releases/tag/v40-preview).
+
+### Current V40 screenshots
+
+Actual frames from the author's October 15 V40 gameplay recording; no skin-color or lighting retouching.
+
+![V40 Kratos facial close-up during the Athena scene](v40-athena-face.jpg)
+
+| Athena dialogue / outfit | Hades combat |
+| --- | --- |
+| ![Kratos and Athena, V40 outfit](v40-athena-outfit.jpg) | ![V40 Kratos in combat](v40-combat.jpg) |
+
 
 ## What is included?
 
@@ -22,7 +35,7 @@ A work-in-progress visual replacement that brings the bearded **God of War (2018
 
 Tested with **CUSA01623, update 01.02**, on the author's existing Windows gow3_pc installation. Other regions, game revisions and port builds are **unverified**. This is not a shadPS4/RPCS3 installation package.
 
-Development included menu, gameplay and dialogue-scene checks. The final bearded V40 candidate was inspected in the native game menu; synthetic eyelid opening/blink poses and asset integrity were checked. **The final bearded V40 dialogue scene and a complete playthrough have not been independently verified.**
+Development included menu, gameplay and dialogue-scene checks. The final bearded V40 was inspected in the native menu, and the author recorded gameplay and the Athena dialogue scene with V40 active. The showcase and screenshots above come from that recording. Synthetic eyelid opening/blink poses, asset integrity and normal-launcher loading were also checked. **This is not an exhaustive facial-animation validation; a complete playthrough has not been tested.**
 
 ## V40 changes
 
@@ -103,6 +116,8 @@ For issues, include game title ID/update, port release, scene/save location, oth
 
 Bu mod, **God of War III Remastered'ın gayriresmî gow3_pc Windows portuna** God of War 2018'deki sakallı Kratos'un kafa, gövde ve kıyafet görünümünü aktarır. Tek başına oyun değildir. **V40 yüz animasyonu ve model uyumu güncellemesidir; hâlâ önizlemedir.**
 
+**[65 saniyelik V40 tanıtım videosunu izle / indir](https://github.com/ErdemYaziciOfficial/gow3-kratos-2018/releases/download/v40-preview/Kratos-2018-V40-Twitter.mp4)** — menü geçişi, Athena konuşması ve dövüş görüntüleri; 1080p/60 FPS.
+
 ### Kurulum
 
 **Güncelleme:** V28, V29 JAW TEST ve diğer eski Kratos modlarını kapat; yalnızca V40 açık kalsın. Geri dönmek için eski klasörü saklayabilirsin.
@@ -116,6 +131,6 @@ Launcher ZIP içe aktarmıyor; klasörden mod yüklüyor. Paketteki yükleyici d
 
 ### Neler eksik?
 
-Önceden kaydedilmiş sinematiklerde eski Kratos kalır. Leviathan baltası/yeni oynanış yoktur. Yeni kumaş fiziği veya tam 2018 yüz animasyon sistemi yoktur. Bazı pozlarda taşma/deformasyon olabilir; tüm oyun bitirilerek test edilmedi. Farklı bölgeler, oyun güncellemeleri ve port sürümleri doğrulanmadı. Test edilen oyun **CUSA01623 01.02**; menü ve Hades bölümünde görsel kontroller yapıldı. Son sakallı V40 adayı menüde ve göz kapakları yapay poz testlerinde kontrol edildi. Son V40 konuşma sahnesi bağımsız olarak doğrulanmadı. Dudak/çene ve ağız içi aktarımı, boyun uyumu ve kapak hareketleri geliştirildi; sakal geri eklendi. Göz kürelerinin bağımsız bakış animasyonu yok; kapak/kirpik/sakal uyumsuzlukları bazı ifadelerde sürebilir.
+Önceden kaydedilmiş sinematiklerde eski Kratos kalır. Leviathan baltası/yeni oynanış yoktur. Yeni kumaş fiziği veya tam 2018 yüz animasyon sistemi yoktur. Bazı pozlarda taşma/deformasyon olabilir; tüm oyun bitirilerek test edilmedi. Farklı bölgeler, oyun güncellemeleri ve port sürümleri doğrulanmadı. Test edilen oyun **CUSA01623 01.02**; menü ve Hades bölümünde görsel kontroller yapıldı. Son sakallı V40 adayı menüde ve göz kapakları yapay poz testlerinde kontrol edildi. V40 açıkken kaydedilen Athena konuşması ve oynanış, yukarıdaki güncel video ve ekran görüntülerinde gösteriliyor; bu, bütün mimiklerin sorunsuz olduğu anlamına gelmez. Dudak/çene ve ağız içi aktarımı, boyun uyumu ve kapak hareketleri geliştirildi; sakal geri eklendi. Göz kürelerinin bağımsız bakış animasyonu yok; kapak/kirpik/sakal uyumsuzlukları bazı ifadelerde sürebilir.
 
 Aynı dosyaları değiştiren modlar çakışır. Port güncellemeleri yükleyici düzeltmesini silebilir. Sorun bildirirken sahneyi, sürümü ve ekran görüntüsünü ekle; loglardaki kişisel bilgileri paylaşma.
