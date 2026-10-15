@@ -2,11 +2,13 @@
 
 A work-in-progress visual replacement that brings the bearded **God of War (2018) Kratos** head, body and outfit to **God of War III Remastered running through the unofficial gow3_pc Windows port**.
 
-**V28 — first public preview.** This is a character mod, not a standalone game, an official PC release, or a gameplay overhaul.
+**V40 — facial-animation and fitting preview update.** This is a character mod, not a standalone game, an official PC release, or a gameplay overhaul.
 
 **[Download the mod](https://github.com/ErdemYaziciOfficial/gow3-kratos-2018/releases)** · [Türkçe kurulum](#türkçe) · [Port project](https://github.com/FelipePrado0/gow3_pc)
 
-![Kratos in gameplay](gameplay-v28.png)
+![Earlier V28 gameplay preview](gameplay-v28.png)
+
+*Image above is the earlier V28 preview; V40 changes focus on facial animation and fitting.*
 
 ## What is included?
 
@@ -20,16 +22,25 @@ A work-in-progress visual replacement that brings the bearded **God of War (2018
 
 Tested with **CUSA01623, update 01.02**, on the author's existing Windows gow3_pc installation. Other regions, game revisions and port builds are **unverified**. This is not a shadPS4/RPCS3 installation package.
 
-The character was visually checked in the menu and Hades gameplay during development. The final launcher package was checked by starting the normal launcher, inspecting the menu, and verifying that all three replacement files matched the accepted V28 assets. The final packaging run did not repeat the gameplay check. **A complete playthrough has not been tested.**
+Development included menu, gameplay and dialogue-scene checks. The final bearded V40 candidate was inspected in the native game menu; synthetic eyelid opening/blink poses and asset integrity were checked. **The final bearded V40 dialogue scene and a complete playthrough have not been independently verified.**
+
+## V40 changes
+
+- Adapted lip/jaw movement and mouth interior, with neck fitting improvements.
+- Increased eyelid coverage and reduced lower-lid opening influence; existing eye-sphere placement/size and skin materials are retained.
+- Restored the existing beard and moustache after face testing.
+- This remains a preview: independent eye-gaze animation is absent, and eyelid/beard clipping or expression mismatches can remain.
+
+**Upgrading from V28 or a local test build:** disable every older Kratos mod (including V29 JAW TEST) before enabling V40. Keep the old folder disabled if you want to roll back.
 
 ## Installation
 
 1. Have your own compatible game dump and a working gow3_pc installation. Launch the unmodified game successfully first.
 2. Close the game and launcher. Back up your existing `scripts/mods.py` before installing, especially if your port version differs.
-3. Download **Kratos-2018-V28-Launcher.zip** from **Releases**. GitHub's automatically generated “Source code” ZIP is not the playable mod package.
+3. Download **Kratos-2018-V40-Launcher.zip** from **Releases**. GitHub's automatically generated “Source code” ZIP is not the playable mod package.
 4. Extract the release ZIP **into your `gow3-windows` folder**, beside `God of War III.exe`. Merge the `mods` and `scripts` folders and replace `scripts/mods.py` with the supplied version.
 5. Open the launcher → **Game / Oyun → Mods / Modlar**. Leave the mods folder at its default, or copy the mod into your custom mods folder.
-6. Enable **Load mods / Modları yükle** and **Kratos 2018 - V28**. Click **Refresh / Yenile** if necessary, then **Save / Oyna**.
+6. Enable **Load mods / Modları yükle** and **Kratos 2018 - V40**. Click **Refresh / Yenile** if necessary, then **Save / Oyna**.
 
 Expected layout:
 
@@ -39,7 +50,7 @@ gow3-windows/
   scripts/
     mods.py
   mods/
-    Kratos 2018 - V28/
+    Kratos 2018 - V40/
       dvdroot_ps4/
         EXEC/
           DEV/LOCALWADS.DCS
@@ -53,7 +64,7 @@ This launcher uses loose mod folders; dragging the ZIP onto the launcher is not 
 
 ## Disable, uninstall and updates
 
-- **Disable:** uncheck **Kratos 2018 - V28**, save, and restart the game.
+- **Disable:** uncheck **Kratos 2018 - V40**, save, and restart the game.
 - **Uninstall:** close the game/launcher, remove only this mod's folder, and restore your own backed-up `scripts/mods.py` if desired.
 - The included `.bak` loader is from the author's tested installation; it is not necessarily the correct backup for a different port version.
 - Port updates may replace the loader. Check compatibility before reinstalling this older script over a newer port.
@@ -64,7 +75,7 @@ This launcher uses loose mod folders; dragging the ZIP onto the launcher is not 
 - **Prerendered cutscenes still show the original GOW III Kratos.** The mod does not replace video files.
 - **No Leviathan Axe, new moves, new weapons or gameplay changes.** GOW III's existing weapons remain.
 - **No new cloth physics system.** Clothing follows adapted GOW III skinning/weights; it is not a recreation of the 2018 cloth simulation.
-- Facial animation is not a complete recreation of the 2018 facial rig.
+- Facial animation is not a complete recreation of the 2018 facial rig. Eye spheres follow the head without independent gaze animation. Eyelids, eyelashes and beard can still mismatch in some expressions.
 - Lighting/material response differs from the 2018 game. The menu has its own adjustment; appearance can vary between scenes.
 - Some animation poses or untested scenes may still show clipping, seams or deformation. Please include a screenshot and location when reporting these.
 - Alternate unlockable costumes and all cutscene/level combinations have not been exhaustively tested.
@@ -73,7 +84,7 @@ This launcher uses loose mod folders; dragging the ZIP onto the launcher is not 
 
 **Not listed:** check for an accidentally nested extraction folder; verify the layout above, click Refresh and restart the launcher.
 
-**Listed but unchanged:** check both enable boxes, restore the supplied loader if a port update replaced it, and check for conflicting mods. `user/last_run.log` should include `Mods: Kratos 2018 - V28: 3 files` and `Mods: 3 game files replaced, 0 added` when this is the only active mod.
+**Listed but unchanged:** check both enable boxes, restore the supplied loader if a port update replaced it, and check for conflicting mods. `user/last_run.log` should include `Mods: Kratos 2018 - V40: 3 files` and `Mods: 3 game files replaced, 0 added` when this is the only active mod.
 
 **Crash or missing character:** disable the mod and compare with the unmodified game. Confirm the game revision, all three files and the required loader are present. Do not change memory/graphics settings blindly.
 
@@ -90,19 +101,21 @@ For issues, include game title ID/update, port release, scene/save location, oth
 
 ## Türkçe
 
-Bu mod, **God of War III Remastered'ın gayriresmî gow3_pc Windows portuna** God of War 2018'deki sakallı Kratos'un kafa, gövde ve kıyafet görünümünü aktarır. Tek başına oyun değildir. **V28 ilk herkese açık önizlemedir.**
+Bu mod, **God of War III Remastered'ın gayriresmî gow3_pc Windows portuna** God of War 2018'deki sakallı Kratos'un kafa, gövde ve kıyafet görünümünü aktarır. Tek başına oyun değildir. **V40 yüz animasyonu ve model uyumu güncellemesidir; hâlâ önizlemedir.**
 
 ### Kurulum
 
+**Güncelleme:** V28, V29 JAW TEST ve diğer eski Kratos modlarını kapat; yalnızca V40 açık kalsın. Geri dönmek için eski klasörü saklayabilirsin.
+
 1. Oyun ve launcher'ı kapat. Mevcut `scripts/mods.py` dosyanı yedekle.
-2. **Releases** bölümündeki **Kratos-2018-V28-Launcher.zip** dosyasını indir. “Source code” ZIP'ini indirme.
+2. **Releases** bölümündeki **Kratos-2018-V40-Launcher.zip** dosyasını indir. “Source code” ZIP'ini indirme.
 3. ZIP içeriğini `God of War III.exe` dosyasının bulunduğu **gow3-windows** klasörüne çıkar. `mods` ve `scripts` klasörlerini birleştir; `scripts/mods.py` dosyasını değiştir.
-4. Launcher → **Oyun → Modlar** bölümünde **Modları yükle** ve **Kratos 2018 - V28** açık olsun. Gerekirse **Yenile**, ardından **Kaydet / Oyna**.
+4. Launcher → **Oyun → Modlar** bölümünde **Modları yükle** ve **Kratos 2018 - V40** açık olsun. Gerekirse **Yenile**, ardından **Kaydet / Oyna**.
 
 Launcher ZIP içe aktarmıyor; klasörden mod yüklüyor. Paketteki yükleyici düzeltmesi gerekli. Üç oyun dosyası birlikte kullanılmalı. Orijinal oyun dosyaları değiştirilmez; geçici bir dosya katmanı kullanılır. Kapatmak için modun işaretini kaldırıp oyunu yeniden açman yeterli.
 
 ### Neler eksik?
 
-Önceden kaydedilmiş sinematiklerde eski Kratos kalır. Leviathan baltası/yeni oynanış yoktur. Yeni kumaş fiziği veya tam 2018 yüz animasyon sistemi yoktur. Bazı pozlarda taşma/deformasyon olabilir; tüm oyun bitirilerek test edilmedi. Farklı bölgeler, oyun güncellemeleri ve port sürümleri doğrulanmadı. Test edilen oyun **CUSA01623 01.02**; menü ve Hades bölümünde görsel kontroller yapıldı. Son launcher paketinde üç dosya ve menü doğrulandı, oyun içi kontrol o son çalıştırmada tekrarlanamadı.
+Önceden kaydedilmiş sinematiklerde eski Kratos kalır. Leviathan baltası/yeni oynanış yoktur. Yeni kumaş fiziği veya tam 2018 yüz animasyon sistemi yoktur. Bazı pozlarda taşma/deformasyon olabilir; tüm oyun bitirilerek test edilmedi. Farklı bölgeler, oyun güncellemeleri ve port sürümleri doğrulanmadı. Test edilen oyun **CUSA01623 01.02**; menü ve Hades bölümünde görsel kontroller yapıldı. Son sakallı V40 adayı menüde ve göz kapakları yapay poz testlerinde kontrol edildi. Son V40 konuşma sahnesi bağımsız olarak doğrulanmadı. Dudak/çene ve ağız içi aktarımı, boyun uyumu ve kapak hareketleri geliştirildi; sakal geri eklendi. Göz kürelerinin bağımsız bakış animasyonu yok; kapak/kirpik/sakal uyumsuzlukları bazı ifadelerde sürebilir.
 
 Aynı dosyaları değiştiren modlar çakışır. Port güncellemeleri yükleyici düzeltmesini silebilir. Sorun bildirirken sahneyi, sürümü ve ekran görüntüsünü ekle; loglardaki kişisel bilgileri paylaşma.
